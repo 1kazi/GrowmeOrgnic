@@ -1,0 +1,45 @@
+.mui-input-box {
+    width:clamp(200px,100%,340px);
+    label {
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: bold;
+        z-index: 7;
+        padding: 0 4px;
+        .MuiFormLabel-asterisk{
+            color: red;
+        }
+    }
+
+    .MuiInputBase-root {
+        background-color: whitesmoke;
+   
+        input {
+            font-size: 18px;
+            line-height: 24px;
+           
+        }
+    }
+}
+
+.form-table-section{
+    padding: 60px 0;
+}
+.accordion-frame{
+    margin: 50px 0;
+}
+.customs-acc-dropdown{
+     max-width: 300px;
+     box-shadow: none !important;
+     border:none;
+    
+}
+.css-1c35hjw-MuiPaper-root-MuiAccordion-root::before{
+    display: none;
+}
+.cursoer_nong{
+    cursor:not-allowed;
+}
+.pointer{
+    cursor: pointer;
+}
